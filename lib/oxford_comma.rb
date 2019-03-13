@@ -23,7 +23,9 @@ end
 ## tried a few different ways to get it smaller and more concise
 ## landed on counting the " , " 
 ## first comnvert the array to a string joining the elements with a comma
-##
+##if there was one comma (2 element array) replace the comma with an "and"
+## if there was more than one comma, replace the last comma with ", and"
+## when none of these work for a single element array and join doesnt add a comma just return the array
 
 def oxford_comma(array)
   format_array = String.new
