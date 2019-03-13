@@ -22,7 +22,6 @@ end
 def oxford_comma(array)
   format_array = String.new
   format_array << array.join(", ")
-  ## puts format_array
     if format_array.count(",") == 1
       format_array[format_array.rindex(", ")] = " and"
       return format_array
@@ -30,7 +29,6 @@ def oxford_comma(array)
       format_array[format_array.rindex(", ")] = ", and"
       return format_array
     end
-  ##  puts format_array
   return format_array
 end
 
