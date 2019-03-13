@@ -5,8 +5,8 @@
 ##if there was one comma (2 element array) replace the comma with an "and"
 ## if there was more than one comma, replace the last comma with ", and"
 ## when none of these work for a single element array and join doesnt add a comma just return the array
-## removed all the returns except the last one.  
-## consolidated the first few lines into one 
+## removed all the returns except the last one.
+## consolidated the first few lines into one
 
 def oxford_comma(array)
   format_array = String.new << array.join(", ")
