@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  format_array = Array.new
+  format_array = String.new
 
   format_array << array.join(", ")
   ##return format_array
