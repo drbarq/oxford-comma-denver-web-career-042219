@@ -13,6 +13,7 @@ def oxford_comma(array)
 ##  puts format_array.index(" ")
 ##  puts format_array.rindex(" ")
   puts format_array.rindex(" ")
+  format_array[format_array.rindex(" ")] = " and"
   puts format_array.sub(13, " and ")
 ##  puts format_s
 ##  return format_array.length
