@@ -3,13 +3,13 @@ def oxford_comma(array)
 
   format_array << array.join(", ")
   ##return format_array
-  format_array.each {|word| format_array << array.split(",")}
+##  format_array.each {|word| format_array << array.split(",")}
 ##  if array.length > 1
-
- return format_array.length
+  puts format_array
+  return format_array.length
 
 
 end
 
 
-##oxford_comma(["kiwi"], "durian", "starfruit"])
+##oxford_comma(["kiwi", "durian", "starfruit"])
