@@ -4,7 +4,9 @@ def oxford_comma(array)
   format_array << array.join(", ")
   ##return format_array
   ##format_array.each {|word| format_array << array.split(",")}
- return format_array
+  if array.length > 1
+
+ return format_array.length
 
 
 end
