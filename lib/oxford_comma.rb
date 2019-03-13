@@ -9,9 +9,9 @@ def oxford_comma(array)
 
   ## count the number of spaces and inject the and
 
-  puts format_array.count(" ")
-  puts format_array.index(" ")
-  puts format_array.rindex(" ")
+##  puts format_array.count(" ")
+##  puts format_array.index(" ")
+##  puts format_array.rindex(" ")
   return format_array.length
 
 
