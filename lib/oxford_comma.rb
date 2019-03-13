@@ -13,7 +13,8 @@ def oxford_comma(array)
 ##  puts format_array.index(" ")
 ##  puts format_array.rindex(" ")
   last_space = format_array.rindex(" ")
-  puts format_array.sub(last_space, " and ")
+  format_s = format_array.sub(last_space, " and ")
+  puts format_s
 ##  return format_array.length
 
 
