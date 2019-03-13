@@ -26,7 +26,7 @@ def oxford_comma(array)
     if format_array.count(",") == 1
       format_array[format_array.rindex(", ")] = " and"
       return format_array
-    else
+    elsif format_array.count(",") > 1
       format_array[format_array.rindex(", ")] = ", and"
       return format_array
     end
