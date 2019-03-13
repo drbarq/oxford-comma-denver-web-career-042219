@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length == 2
     format_array << array.join(" and ")
     return format_array
-  else
+
 end
 
   format_array << array.join(", ")
