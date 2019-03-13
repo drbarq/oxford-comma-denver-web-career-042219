@@ -1,3 +1,4 @@
+=begin
 def oxford_comma(array)
   format_array = String.new
   if array.length == 1
@@ -12,7 +13,7 @@ def oxford_comma(array)
   format_array[format_array.rindex(", ")] = ", and"
   return format_array
 end
-
+=end 
 
 ##oxford_comma(["kiwi", "durian", "starfruit"])
 
