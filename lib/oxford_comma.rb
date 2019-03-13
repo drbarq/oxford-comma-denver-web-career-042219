@@ -26,7 +26,7 @@ def oxford_comma(array)
   elsif array.length > 1
     format_array << array.join(", ")
     if format_array.count(",") <= 1
-
+      format_array[format_array.rindex(", ")] = " and"
 
 
     format_array[format_array.rindex(", ")] = ", and"
