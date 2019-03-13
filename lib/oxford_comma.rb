@@ -33,3 +33,11 @@ def oxford_comma(array)
     puts format_array
   ##return format_array
 end
+
+
+
+def oxford_comma(array)
+  format_array = String.new
+  format_array << array.join(", ")
+  puts format_array
+end 
