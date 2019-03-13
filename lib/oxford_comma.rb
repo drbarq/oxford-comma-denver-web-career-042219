@@ -22,12 +22,12 @@ end
 def oxford_comma(array)
   format_array = String.new
   format_array << array.join(", ")
-    if format_array.count(",") >= 1
+    if format_array.count(",") <= 1
       format_array[format_array.rindex(", ")] = " and"
       return format_array
+    else
+      format_array[format_array.rindex(", ")] = ", and"
+      return format_array
     end
-
-    format_array[format_array.rindex(", ")] = ", and"
-    return format_array
-
+  return format_array
 end
