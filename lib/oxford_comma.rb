@@ -19,6 +19,12 @@ end
 ##oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
 ##oxford_comma(["kiwi"])
 
+
+## tried a few different ways to get it smaller and more concise 
+## landed on counting the " , " 
+## first comnvert the array to a string joining the elements with a comma
+## 
+
 def oxford_comma(array)
   format_array = String.new
   format_array << array.join(", ")
