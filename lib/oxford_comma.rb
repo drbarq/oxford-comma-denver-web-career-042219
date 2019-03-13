@@ -11,8 +11,9 @@ def oxford_comma(array)
 
 ##  puts format_array.count(" ")
 ##  puts format_array.index(" ")
-  puts format_array.rindex(" ")
-  format_array.sub(format_array.rindex(" "), " and ")
+##  puts format_array.rindex(" ")
+  last_space = format_array.rindex(" ")
+  puts format_array.sub(last_space, " and ")
   return format_array.length
 
 
