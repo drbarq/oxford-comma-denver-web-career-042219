@@ -16,7 +16,8 @@ end
 =end
 
 ##oxford_comma(["kiwi", "durian", "starfruit"])
-
+##oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
+##oxford_comma(["kiwi"])
 
 def oxford_comma(array)
   format_array = String.new
